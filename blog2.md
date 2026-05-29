@@ -1,0 +1,1 @@
+Inheritance allows reuse of common code,Polymorphism lets different classes use the same interface in different ways,Abstraction hides complex implementation details and shows only essential features,Encapsulation hides internal data and exposes only safe method

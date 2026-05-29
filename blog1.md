@@ -1,0 +1,1 @@
+Generics work by using a type placeholder that TypeScript fills in when you call the function.
