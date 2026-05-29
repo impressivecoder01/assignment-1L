@@ -26,3 +26,9 @@ const  checkType = (value: StringOrNumber):  string =>  {
 }
 checkType("Hello");
 checkType(42);
+//question-4
+const getProperty = <T, K extends keyof T>(object: T, key: K):T[K] =>{
+    return object[key]
+}
+const user = { id: 1, name: "John Doe", age: 21 };
+getProperty(user, "name");
