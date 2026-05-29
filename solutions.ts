@@ -13,3 +13,16 @@ const reverseString = (string: string): string => {
 } 
 
 reverseString('javascript')
+// question-3
+type StringOrNumber = string | number;
+
+const  checkType = (value: StringOrNumber):  string =>  {
+    if(typeof value === "string"){
+        return "String"
+    }
+    else {
+        return 'Number'
+    }
+}
+checkType("Hello");
+checkType(42);
