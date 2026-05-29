@@ -1,1 +1,1 @@
-Generics work by using a type placeholder that TypeScript fills in when you call the function.
+Generics work by using a type placeholder that TypeScript fills in when you call the function and also it allow us to use same code with various data beside gives us strong type safety
