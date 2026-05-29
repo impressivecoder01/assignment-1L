@@ -70,3 +70,7 @@ class Student extends Person  {
 }
 const student = new Student("Alice", 20, "A");
 student.getDetails();
+//question-7
+const getIntersection = (array1: number[], array2: number[]): number[] => {
+    return array1.filter((item) => array2.includes(item));
+};
